@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SCRIPTS -->
+    <script src="ordenar.js" defer></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!-- Title -->
+    <title>DOM CONTROL ORDER</title>
+
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <h1>Ordering of Numbers</h1>
+            <form onsubmit="event.preventDefault(); processNumbers();">
+                <input class="numbers" type="text" id="munbers" name="numbers" required>
+                <button class="animated-button" type="submit">Process</button>
+            </form>
+        </div>
+        <h2 id="sortedresult"></h2>
+    </div>
+</body>
+</html>
