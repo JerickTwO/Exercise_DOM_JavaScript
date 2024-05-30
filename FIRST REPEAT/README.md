@@ -51,4 +51,7 @@ The application consists of a card with an input field where users can type a se
 ```plaintext
 Input: 1, 2, 3, 4, 5, 3, 6
 Output: The first number that repeats is 3.
+```
+
+
 ![image](https://github.com/JerickTwO/Exercise_DOM_JavaScript/assets/137414207/b6cf3474-45b5-4c7e-acbb-01cbc60011dd)
